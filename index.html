@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>पाथिभरा ग्याँस उद्योग प्रा. लि.</title>
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- header section starts  -->
 
     <header id="home">
-        <a href="#" class="logo"><img src="images/pathibhara_logo.svg" alt="Pathibhara Gas"></a>
-        <a href="#" class="btn"> <img src="/images/phone_in_talk_black_24dp.svg" alt=""> ०२३ - ५४६५३० </a>
+      <a href="#" class="logo"
+        ><img src="images/pathibhara_logo.svg" alt="Pathibhara Gas"
+      /></a>
+      <a href="#" class="btn">
+        <img src="/images/phone_in_talk_black_24dp.svg" alt="" /> ०२३ - ५४६५३०
+      </a>
 
-        <input type="checkbox" id="menu-bar">
-        <label for="menu-bar" class="fas fa-bars"></label>
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar" class="fas fa-bars"></label>
 
-        <nav class="navbar">
-            <a href="/index.html"> घर </a>
-            <a href="#product"> सामग्री </a>
-            <a href="#about"> हामी बारे </a>
-            <a href="#contact"> सम्पर्ग </a>
-        </nav>
-
+      <nav class="navbar">
+        <a href="/index.html"> घर </a>
+        <a href="#product"> सामग्री </a>
+        <a href="#about"> हामी बारे </a>
+        <a href="#contact"> सम्पर्ग </a>
+      </nav>
     </header>
 
     <!-- header section ends -->
@@ -39,17 +42,20 @@
     <!-- home section starts  -->
 
     <section class="home">
+      <div class="content">
+        <h3>
+          पाथिभरा ग्याँस उद्योग प्रा. लि. <br />
+          बिर्तामोड न. पा. २, झापा
+        </h3>
+        <p>
+          ईनरुवा देखी ताप्लेजुङ सम्म, हामी यहाँहरुको ढोका ढोका सम्म सेवारत छौ।
+        </p>
+        <a href="#" class="btn">०२३ - ५४६५३०, ९८ - ५२६४६५२९, ९८ - ०१४४०५३० </a>
+      </div>
 
-        <div class="content">
-            <h3> पाथिभरा ग्याँस उद्योग प्रा. लि. <br> बिर्तामोड न. पा. २, झापा </h3>
-            <p> ईनरुवा देखी ताप्लेजुङ सम्म, हामी यहाँहरुको ढोका ढोका सम्म सेवारत छौ। </p>
-            <a href="#" class="btn">०२३ - ५४६५३०, ९८ - ५२६४६५२९, ९८ - ०१४४०५३० </a>
-        </div>
-
-        <div class="image">
-            <img src="images/pg_tank_1.png" alt="">
-        </div>
-
+      <div class="image">
+        <img src="images/pg_tank_1.png" alt="" />
+      </div>
     </section>
 
     <!-- home section ends -->
@@ -57,17 +63,13 @@
     <!-- features section starts  -->
 
     <section class="product" id="product">
+      <h1 class="heading">सामग्री</h1>
 
-        <h1 class="heading"> सामग्री </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="images/product_info.png" alt="">
-            </div>
-
+      <div class="box-container">
+        <div class="box">
+          <img src="images/product_info.png" alt="" />
         </div>
-
+      </div>
     </section>
 
     <!-- features section ends -->
@@ -75,54 +77,45 @@
     <!-- about section starts  -->
 
     <section class="about" id="about">
+      <h1 class="heading">हामी बारे</h1>
 
-        <h1 class="heading"> हामी बारे </h1>
-
-        <div class="column">
-
-        </div>
-
+      <div class="column"></div>
     </section>
 
     <!-- about section ends -->
 
-
     <!-- contact section starts  -->
 
     <section class="contact" id="contact">
+      <div class="image">
+        <img src="images/contact-img.png" alt="" />
+      </div>
 
-        <div class="image">
-            <img src="images/contact-img.png" alt="">
+      <form action="">
+        <h1 class="heading">सम्पर्ग</h1>
+
+        <div class="inputBox">
+          <input type="text" required />
+          <label>नाम</label>
         </div>
 
-        <form action="">
+        <div class="inputBox">
+          <input type="email" required />
+          <label>इमेल </label>
+        </div>
 
-            <h1 class="heading"> सम्पर्ग </h1>
+        <div class="inputBox">
+          <input type="number" required />
+          <label>फोन </label>
+        </div>
 
-            <div class="inputBox">
-                <input type="text" required>
-                <label>नाम</label>
-            </div>
+        <div class="inputBox">
+          <textarea required name="" id="" cols="30" rows="10"></textarea>
+          <label>व्यहोरा </label>
+        </div>
 
-            <div class="inputBox">
-                <input type="email" required>
-                <label>इमेल </label>
-            </div>
-
-            <div class="inputBox">
-                <input type="number" required>
-                <label>फोन </label>
-            </div>
-
-            <div class="inputBox">
-                <textarea required name="" id="" cols="30" rows="10"></textarea>
-                <label>व्यहोरा </label>
-            </div>
-
-            <input type="submit" class="btn" value="पाठउनुहोस ">
-
-        </form>
-
+        <input type="submit" class="btn" value="पाठउनुहोस " />
+      </form>
     </section>
 
     <!-- contact section edns -->
@@ -130,7 +123,7 @@
     <!-- Scroll to the top -->
 
     <div class="scroller">
-        <span class="scroll-progress"> &uArr; </span>
+      <span class="scroll-progress"> &uArr; </span>
     </div>
 
     <!-- Scroll to the top ends-->
@@ -138,33 +131,14 @@
     <!-- footer section starts  -->
 
     <div class="footer">
-
-        <h3 class="credit"> पाथिभरा ग्याँस उद्योग प्रा. लि. बिर्तामोड न. पा. २, झापा <span class="addDate"> </span>
-        </h3>
-
+      <h3 class="credit">
+        पाथिभरा ग्याँस उद्योग प्रा. लि. बिर्तामोड न. पा. २, झापा
+        <span class="addDate"> </span>
+      </h3>
     </div>
 
     <!-- footer section ends -->
 
-
     <script src="./script/script.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>
